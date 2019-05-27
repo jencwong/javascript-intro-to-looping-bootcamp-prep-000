@@ -18,9 +18,14 @@ function whileLoop(n) {
     return "done";
   }
   
-  function doWhileLoop(num) {
+
+function doWhileLoop(num) {
+    var i = 0;
+ 
+function incrementVariable() {
+  let i = i + 1;
     do {
       ["I run once regardless"];
-    } while([incrementVariable() < num])
-    }
+    } while(incrementVariable() < num);
+  }
   }
