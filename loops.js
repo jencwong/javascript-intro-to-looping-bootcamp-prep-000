@@ -21,11 +21,7 @@ function whileLoop(n) {
 
 function doWhileLoop(num) {
     var i = 0;
- 
-function incrementVariable() {
-  let i = i + 1;
-    do {
+     do {
       ["I run once regardless"];
     } while(incrementVariable() < num);
-  }
   }
