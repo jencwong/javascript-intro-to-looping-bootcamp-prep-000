@@ -27,7 +27,7 @@ function doWhileLoop(num) {
     }
      do {
       ["I run once regardless"];
-    } while(incrementVariable() < num) || (incrementVariable() = 0);
+    } while(incrementVariable() < num);
   }
   
   
