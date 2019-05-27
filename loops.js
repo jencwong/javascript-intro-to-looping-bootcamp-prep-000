@@ -18,4 +18,9 @@ function whileLoop(n) {
     return "done";
   }
   
-  
+  function doWhileLoop(num) {
+    do {
+      ["I run once regardless"];
+    } while([incrementVariable() < num])
+    }
+  }
